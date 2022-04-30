@@ -84,7 +84,7 @@
             <td>{customer.name}</td>
             <td>{Region[customer.region]}</td>
             <td>{Frequency[customer.frequency]}</td>
-            <td class="text-center">{@html customer.newsletter ? '&#10003;' : ''}</td>
+            <td class="text-center">{#if customer.newsletter}&#10003;{/if}</td>
           </tr>
         {/each}
       </tbody>
