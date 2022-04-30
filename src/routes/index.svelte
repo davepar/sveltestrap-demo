@@ -49,6 +49,8 @@
 </script>
 
 <svelte:head>
+  <title>Svelte with Sveltestrap</title>
+  <meta name="description" content="A demo of the Sveltestrap UI library" />
   <link
     rel="stylesheet"
     href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
